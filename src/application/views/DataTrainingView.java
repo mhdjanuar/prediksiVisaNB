@@ -30,7 +30,7 @@ public class DataTrainingView extends javax.swing.JPanel {
     public final DataTraining dataTrainingDao;
     
     public void loadTable() {
-        String[] columnNames = {"Nama", "Paspor", "Surat Pernyataan Jaminan", "Rekening Koran Sponsor", "CV", "Jadwal Keberabgkatan", "Label"};
+        String[] columnNames = {"Nama", "Paspor", "Surat Pernyataan Jaminan", "Rekening Koran Sponsor", "CV", "Jadwal Keberangkatan", "Label"};
         DefaultTableModel model = new DefaultTableModel(columnNames, 0);
 
         List<DataTrainingModel> list = dataTrainingDao.findAll();
