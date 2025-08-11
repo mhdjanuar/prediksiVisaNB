@@ -140,12 +140,12 @@
         </Container>
         <Component class="javax.swing.JLabel" name="jLabel3">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Lolos Cepat"/>
+            <Property name="text" type="java.lang.String" value="Disetujui"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel4">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Terhambat"/>
+            <Property name="text" type="java.lang.String" value="Ditolak"/>
           </Properties>
         </Component>
       </SubComponents>

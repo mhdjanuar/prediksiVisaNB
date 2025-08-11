@@ -84,8 +84,8 @@ public class PerhitunganNaiveBayesView extends javax.swing.JPanel {
         // Set model ke jTable1
         jTable1.setModel(model);
         
-        tampilkanProbabilitasKategori("Lolos Cepat", jTable3);
-        tampilkanProbabilitasKategori("Terhambat", jTable2);
+        tampilkanProbabilitasKategori("Disetujui", jTable3);
+        tampilkanProbabilitasKategori("Ditolak", jTable2);
     }
 
     /**
@@ -144,9 +144,9 @@ public class PerhitunganNaiveBayesView extends javax.swing.JPanel {
         ));
         jScrollPane3.setViewportView(jTable3);
 
-        jLabel3.setText("Lolos Cepat");
+        jLabel3.setText("Disetujui");
 
-        jLabel4.setText("Terhambat");
+        jLabel4.setText("Ditolak");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
